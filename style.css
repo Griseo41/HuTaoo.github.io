@@ -1,0 +1,105 @@
+* {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   
+} 
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.music {
+    width: 300px;
+    height: 200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.music .bar {
+    width: 12px;
+    border-radius: 10px;
+    background: white;
+    animation: movement 1.5s ease-in-out infinite;
+}
+@keyframes movement {
+    0%, 100%{
+        height: 2px;
+    }
+    50%{
+        height: 80px;
+    }
+}
+.music .bar:nth-child(1) {
+    background: #b65252;
+    animation-delay: 1s;
+}
+.music .bar:nth-child(2) {
+    background:pink;
+    animation-delay: .8s;
+}
+.music .bar:nth-child(3) {
+    background: #b65252;
+    animation-delay: .6s;
+}
+.music .bar:nth-child(4) {
+    background: pink;
+    animation-delay: .4s;
+}
+.music .bar:nth-child(5) {
+    background: #b65252;
+    animation-delay: .2s;
+}
+.music .bar:nth-child(6) {
+    background: pink;
+    animation-delay: .2s;
+}
+.music .bar:nth-child(7) {
+    background: #b65252;
+    animation-delay: .4s;
+}
+.music .bar:nth-child(8) {
+    background: pink;
+    animation-delay: .6s;
+}
+.music .bar:nth-child(9) {
+    background: #b65252;
+    animation-delay: .8s;
+}
+.music .bar:nth-child(10) {
+    background: pink;
+    animation-delay: 1s;
+}
+
+
+img {
+    width: 250pt;
+    height: 250pt;
+    text-align: center;
+}         
+  .gambar {
+display: flex;
+justify-content: center ;
+align-items: baseline;
+}
+
+#container {
+position: relative;
+left: 90px;
+top: 5px;
+text-align: center;
+}
+.text-biasa {
+    text-align: center;
+    bottom: 10px;
+}
+.emote {
+    text-align: center;
+}
+.anjay {
+    text-align: center;
+    color : rgb(172, 9, 9);
+}
